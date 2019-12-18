@@ -38,7 +38,17 @@ namespace MathArr
             }
         }
 
-        
+        private static T Sub(T a, T b)
+        {
+            switch (typeof(T).Name)
+            {
+                case "Int32":
+                    return (T)(object)((int)(object)a - (int)(object)b);
+                default: return default(T);
+
+                    //more cases to implement
+            }
+        }
 
         private static T Add(T a,T b)
         {
@@ -102,7 +112,7 @@ namespace MathArr
                 {
                     for (int j = 0; j < column; j++)
                     {
-                        addMatrix[i, j] = (dynamic)mat[i, j] - this.matrix[i, j];
+                        addMatrix[i, j] = Sub(mat[i, j] , this.matrix[i, j]);
                     }
                 }
             }

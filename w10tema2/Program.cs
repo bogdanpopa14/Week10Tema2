@@ -21,12 +21,12 @@ namespace w10tema2
             matrix1[2, 1] = 5;
 
             Matrix<int> matrix3 = new Matrix<int>(3, 2);
-            matrix1[0, 0] = 1;
-            matrix1[0, 1] = 2;
-            matrix1[1, 0] = 3;
-            matrix1[1, 1] = 4;
-            matrix1[2, 0] = 5;
-            matrix1[2, 1] = 5;
+            matrix3[0, 0] = 1;
+            matrix3[0, 1] = 2;
+            matrix3[1, 0] = 3;
+            matrix3[1, 1] = 4;
+            matrix3[2, 0] = 5;
+            matrix3[2, 1] = 5;
 
            
             //Matrix<int> matrix2 = new Matrix<int>(2, 3);
