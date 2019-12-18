@@ -47,6 +47,8 @@ namespace MathArr
                 case "Int32":
                     return (T)(object)((int)(object)a + (int)(object)b);
                 default: return default(T);
+
+                    //more cases to implement
             }
         }
 
@@ -62,7 +64,7 @@ namespace MathArr
                     for (int j = 0; j < column; j++)
                     {
 
-                        addMatrix[i, j] =(  (dynamic)this.matrix[i, j]+ (dynamic)mat[i, j]);
+                        addMatrix[i, j] =Add(this.matrix[i, j],mat[i, j]);
                     }
                 }
             } 
