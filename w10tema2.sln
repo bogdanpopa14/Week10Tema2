@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "w10tema2", "w10tema2\w10tema2.csproj", "{16545977-9803-4FE2-89AD-769CEAE5C1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathArr", "MathArr\MathArr.csproj", "{D7DC4354-1A35-4310-A421-9A66E3DDBC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringOp", "StringOp\StringOp.csproj", "{71384DF7-4C48-468B-A117-F43A71836FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16545977-9803-4FE2-89AD-769CEAE5C1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16545977-9803-4FE2-89AD-769CEAE5C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16545977-9803-4FE2-89AD-769CEAE5C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16545977-9803-4FE2-89AD-769CEAE5C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DC4354-1A35-4310-A421-9A66E3DDBC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DC4354-1A35-4310-A421-9A66E3DDBC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DC4354-1A35-4310-A421-9A66E3DDBC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DC4354-1A35-4310-A421-9A66E3DDBC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71384DF7-4C48-468B-A117-F43A71836FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71384DF7-4C48-468B-A117-F43A71836FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71384DF7-4C48-468B-A117-F43A71836FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71384DF7-4C48-468B-A117-F43A71836FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79D13E97-4C17-4E21-A895-E7526424B72F}
+	EndGlobalSection
+EndGlobal
